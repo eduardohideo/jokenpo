@@ -9,8 +9,8 @@ exemplo:  `curl http://localhost:8080/players `
 `POST /playerMove {{"name":"{nome_do_jogador}","jokenMove":"movimento"}}`  cadastra o lance do jokenpo para um determinado jogador  
 exemplo:  `curl -v -XPUT http://localhost:8080/playerMove -d '{"name":1,"jokenMove":"TESOURA"}' -H "Content-Type: application/json"`  
   
-`DELETE /player/{nome}` deleta o jogador cadastrado
+`DELETE /player/{nome}` deleta o jogador cadastrado  
 exemplo:  `curl -XDELETE http://localhost:8080/player/1`
 
-`GET /game` joga o jogo e retorna a lista de vencedores
+`GET /game` joga o jogo e retorna a lista de vencedores  
 exemplo:  `curl http://localhost:8080/game`  
