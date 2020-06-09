@@ -1,5 +1,5 @@
 # Jokenpo game
-Jokenpo game em Spring Boot 2 com Java 11
+Jokenpo game em Spring Boot 2 com Java 11  
 Endpoints   
 `GET /players` lista os jogadores e suas jogadas em json  
 exemplo:  `curl http://localhost:8080/player/1`  
